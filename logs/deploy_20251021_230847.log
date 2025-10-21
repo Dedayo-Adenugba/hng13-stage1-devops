@@ -1,0 +1,3 @@
+2025-10-21T23:08:47+00:00 [INFO]  === Collecting user inputs ===
+Git repository URL (HTTPS): Personal Access Token (hidden): 
+Branch (default 'main'): Remote SSH username: Remote server IP address: SSH key path (e.g. ~/.ssh/id_rsa): Application internal port (container): 2025-10-21T23:10:31+00:00 [ERROR] SSH key not found at ~/.ssh/id_rsa.
