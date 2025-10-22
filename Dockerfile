@@ -3,10 +3,10 @@ FROM node:20-alpine
 WORKDIR /app
 
 # copy both files so npm ci can use the lockfile
-COPY package.json package-lock.json ./
+COPY package*.json ./
 
 # deterministic production install
-RUN npm ci --omit=dev
+RUN npm install --omit=dev
 
 # copy the rest of the app
 COPY . .
